@@ -1,0 +1,72 @@
+{
+  "n_patches": 30,
+  "faithfulness": {
+    "gradcam": {
+      "deletion_auc_mean(lower=better)": 0.4525997907024188,
+      "deletion_auc_std": 0.22603676561084637,
+      "insertion_auc_mean(higher=better)": 0.7279270859000581,
+      "insertion_auc_std": 0.19647517737320738
+    },
+    "random": {
+      "deletion_auc_mean(lower=better)": 0.47831051696402327,
+      "deletion_auc_std": 0.14895288604085163,
+      "insertion_auc_mean(higher=better)": 0.47653757944392666,
+      "insertion_auc_std": 0.1429175619531261
+    }
+  },
+  "radiomic_permutation_importance": {
+    "base_balanced_acc": 0.5796952328717035,
+    "top10_balanced_acc_drop": [
+      [
+        "glcm_ASM",
+        0.003343434343434426
+      ],
+      [
+        "H_std",
+        0.002171717171717269
+      ],
+      [
+        "min",
+        0.0013263403263403806
+      ],
+      [
+        "H_p90",
+        0.0012012432012432628
+      ],
+      [
+        "p90",
+        0.0011818181818182838
+      ],
+      [
+        "E_std",
+        0.0007202797202797151
+      ],
+      [
+        "shape_minor_axis",
+        0.00014141414141416453
+      ],
+      [
+        "glcm_dissimilarity",
+        -3.030303030304715e-05
+      ],
+      [
+        "shape_extent",
+        -0.0004242424242424381
+      ],
+      [
+        "glcm_entropy",
+        -0.0008585858585858364
+      ]
+    ]
+  },
+  "learned_stain_vectors_cosine_to_Ruifrok_init(H,E,residual)": [
+    0.9994745611464309,
+    0.9998417532602799,
+    0.993207890005269
+  ],
+  "learned_reference_concentration_scale": [
+    1.9352675676345825,
+    1.050800085067749,
+    0.5026017427444458
+  ]
+}

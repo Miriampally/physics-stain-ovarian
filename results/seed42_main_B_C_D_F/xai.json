@@ -1,0 +1,62 @@
+{
+  "n_patches": 30,
+  "faithfulness": {
+    "gradcam": {
+      "deletion_auc_mean(lower=better)": 0.43601063496743636,
+      "deletion_auc_std": 0.21435141437321392,
+      "insertion_auc_mean(higher=better)": 0.7070237416401505,
+      "insertion_auc_std": 0.1987225976236156
+    },
+    "random": {
+      "deletion_auc_mean(lower=better)": 0.47978836433030664,
+      "deletion_auc_std": 0.20391994093910423,
+      "insertion_auc_mean(higher=better)": 0.48168573700851985,
+      "insertion_auc_std": 0.19847041627884474
+    }
+  },
+  "radiomic_permutation_importance": {
+    "base_balanced_acc": 0.6443309907902759,
+    "top10_balanced_acc_drop": [
+      [
+        "shape_circularity",
+        0.004486168605033203
+      ],
+      [
+        "p10",
+        0.003901373283395737
+      ],
+      [
+        "variance",
+        0.002739996057559646
+      ],
+      [
+        "E_std",
+        0.0023391812865496964
+      ],
+      [
+        "glcm_energy",
+        0.0022471910112359383
+      ],
+      [
+        "glcm_ASM",
+        0.0022471910112359383
+      ],
+      [
+        "E_p90",
+        0.001927689072869443
+      ],
+      [
+        "max",
+        0.001708390827255435
+      ],
+      [
+        "shape_solidity",
+        0.001388888888888884
+      ],
+      [
+        "E_mean",
+        0.0013428937512319772
+      ]
+    ]
+  }
+}

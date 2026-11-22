@@ -1,0 +1,79 @@
+{
+  "n_patches": 30,
+  "faithfulness": {
+    "gradcam": {
+      "deletion_auc_mean(lower=better)": 0.4738684490338589,
+      "deletion_auc_std": 0.18305503398588535,
+      "insertion_auc_mean(higher=better)": 0.6401720151010278,
+      "insertion_auc_std": 0.17671074264754777
+    },
+    "random": {
+      "deletion_auc_mean(lower=better)": 0.5186552788489887,
+      "deletion_auc_std": 0.17164637472036193,
+      "insertion_auc_mean(higher=better)": 0.48422168247634545,
+      "insertion_auc_std": 0.18731078380571847
+    },
+    "attention": {
+      "deletion_auc_mean(lower=better)": 0.5308827759030585,
+      "deletion_auc_std": 0.17113417081520688,
+      "insertion_auc_mean(higher=better)": 0.5898074792216842,
+      "insertion_auc_std": 0.1828294399095185
+    }
+  },
+  "gradcam_attention_spearman_mean": 0.14918319432110014,
+  "radiomic_permutation_importance": {
+    "base_balanced_acc": 0.5346277786182205,
+    "top10_balanced_acc_drop": [
+      [
+        "shape_eccentricity",
+        0.009388888888888891
+      ],
+      [
+        "glcm_ASM",
+        0.009123595505617976
+      ],
+      [
+        "glcm_energy",
+        0.008676785596951175
+      ],
+      [
+        "E_p90",
+        0.008397987827333309
+      ],
+      [
+        "shape_minor_axis",
+        0.007993363558709554
+      ],
+      [
+        "shape_major_axis",
+        0.007939059498760004
+      ],
+      [
+        "max",
+        0.006876404494381982
+      ],
+      [
+        "glcm_correlation",
+        0.005752808988764069
+      ],
+      [
+        "shape_solidity",
+        0.005479302188054425
+      ],
+      [
+        "energy",
+        0.005169590643274935
+      ]
+    ]
+  },
+  "learned_stain_vectors_cosine_to_Ruifrok_init(H,E,residual)": [
+    0.9998893677636874,
+    0.9985695865723359,
+    0.9967885659449884
+  ],
+  "learned_reference_concentration_scale": [
+    1.9778244495391846,
+    1.0039466619491577,
+    0.48158708214759827
+  ]
+}
