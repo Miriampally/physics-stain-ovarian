@@ -72,5 +72,6 @@ One dataset, 512 slides, about 100 test slides per fold, two seeds, synthetic te
 
 ## Citation and licence
 
-Citation: *to be added after publication.*
-Licence: *to be chosen by the authors (add a LICENSE file).*
+Archived copy with DOI: https://doi.org/10.5281/zenodo.24435575
+Citation: to be added after publication.
+Licence: MIT (see LICENSE).
